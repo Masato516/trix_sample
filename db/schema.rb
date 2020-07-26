@@ -10,12 +10,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_07_26_164907) do
+ActiveRecord::Schema.define(version: 2020_07_26_182151) do
 
   create_table "boards", force: :cascade do |t|
     t.string "title"
     t.string "abstract"
     t.text "blog"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "photos", force: :cascade do |t|
+    t.text "image_data"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
