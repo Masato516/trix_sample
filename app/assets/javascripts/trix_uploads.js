@@ -61,7 +61,7 @@
 // })();
 // Trix.config.lang.captionPlaceholder = "Description"
 //
-// Trix.config.attachments.preview.caption = { name: false, size: false }
+Trix.config.attachments.preview.caption = { name: false, size: false }
 
 
 function uploadAttachment(attachment) {
