@@ -15,4 +15,3 @@
 //= require turbolinks
 //= require trix
 // ↓自動読み込みが適用されるようにする
-//= require_tree .

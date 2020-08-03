@@ -1,3 +1,5 @@
+<%= javascript_include_tag 'trix_uploads.js' %>
+
 <%= form_with(model: board, local: true) do |form| %>
   <% if board.errors.any? %>
     <div id="error_explanation">
@@ -28,6 +30,6 @@
   </div>
 
   <div class="actions">
-    <%= form.submit %>
+    <%= form.submit onclick:"window.onbeforeunload=null" %>
   </div>
 <% end %>

@@ -14,3 +14,6 @@
  *= require_tree .
  *= require_self
  */
+ .trix-button--icon-undo,
+ .trix-button--icon-redo,
+ .trix-button-group--history-tools { display: none; }
